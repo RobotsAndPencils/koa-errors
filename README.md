@@ -7,8 +7,6 @@
 
 ## Usage
 
-### Node
-
 ```Shell
 $ npm install --save @robotsandpencils/koa-errors
 ```
