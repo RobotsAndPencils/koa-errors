@@ -5,5 +5,12 @@
         "comma-dangle": ["error", "always-multiline"],
         "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
         "no-console": "error"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".ts", ".cjs", ".mjs"]
+            }
+        }
     }
 }
