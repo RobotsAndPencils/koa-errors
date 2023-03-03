@@ -1,14 +1,28 @@
 # koa-errors
 
-[![tests](https://github.com/RobotsAndPencils/koa-errors/actions/workflows/pr-check.yml/badge.svg)](https://github.com/RobotsAndPencils/koa-errors/actions/workflows/pr-check.yml)
-[![Coverage Status](https://coveralls.io/repos/github/RobotsAndPencils/koa-errors/badge.svg?branch=main)](https://coveralls.io/github/RobotsAndPencils/koa-errors?branch=main)
+[![tests](https://github.com/RobotsAndPencils/koa-errors/actions/workflows/pull-request.yml/badge.svg)](https://github.com/RobotsAndPencils/koa-errors/actions/workflows/pull-request.yml)
+[![Coverage Status](https://coveralls.io/repos/github/RobotsAndPencils/koa-errors/badge.svg?branch=latest)](https://coveralls.io/github/RobotsAndPencils/koa-errors?branch=latest)
 
 `@robotsandpencils/koa-errors` is a simple koa middleware for handling error states (i.e. 500 errors). It's primary usage is to produce human, and program readable 500 errors that only include stack traces in development environments.
 
 ## Usage
 
+Using pnpm:
+
+```Shell
+$ pnpm add @robotsandpencils/koa-errors
+```
+
+Using npm:
+
 ```Shell
 $ npm install --save @robotsandpencils/koa-errors
+```
+
+Using yarn:
+
+```Shell
+$ yarn add @robotsandpencils/koa-errors
 ```
 
 ```JavaScript
